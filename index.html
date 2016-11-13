@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flavio Johansson's portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,51 +17,109 @@
 
 <body>
     <div class="container">
-        <header class="row header">
-            <div class="col-xs-2 col-md-2">
-                <img class="header-logo" src="img/udacity.svg" alt="Udacity logo">
+
+        <header>
+            <div class="row">
+                <div class="col-xs-2 col-md-2">
+                    <img class="header-logo" src="img/udacity.svg" alt="Udacity logo">
+                </div>
+                <div class="col-xs-10 col-md-10 text-uppercase text-right">
+                    <h1 class="header-title">Flavio Johansson</h1>
+                    <h5>Front-end Jedi</h5>
+                </div>
             </div>
-            <div class="col-xs-10 col-md-10 text-uppercase text-right">
-                <h1 class="header-super">Flavio Johansson</h1>
-                <h5>Front-end Jedi</h5>
+            <div class="row">
+                <div class="col-xs-12">
+                    <hr class="thick">
+                </div>
             </div>
         </header>
 
-        <div class="row">
-            <div class="col-md-12">
-                <hr class="thick">
-            </div>
-        </div>
+        <main id="main-content">
 
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-responsive" src="http://placekitten.com/g/1200/400" alt="Main site banner">
+            <div class="row">
+                <div class="col-xs-12">
+                    <picture id="hero-banner">
+                        <source media="(min-width: 992px)" srcset="img/hero_1200_large.jpg" />
+                        <source media="(min-width: 480px)" srcset="img/hero_720_medium.jpg" />
+                        <img class="img-responsive" src="img/hero_480_small.jpg" alt="Cute kitten looking to the camera">
+                    </picture>
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-muted text-left">Featured Work</h2>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-muted text-left">Featured Work</h2>
+                </div>
             </div>
-        </div>
 
-        <div class="row text-center">
-            <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/g/555/300">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Movie Trailer Website</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" target="_blank" href="https://goo.gl/yvl5b5">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Build a Portfolio</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" target="_blank" href="https://goo.gl/yvl5b5">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Multi User Blog</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/g/555/300">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
+
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Item Catalog</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Neighborhood Map</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
+                        <h3 class="text-uppercase">Design a Game</h3>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="http://placekitten.com/g/555/300">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
-            </div>
-        </div>
+
+        </main>
 
     </div>
 </body>

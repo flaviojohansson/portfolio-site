@@ -1,14 +1,13 @@
 * {
     color: #2d3c49;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font: normal 300 16px 'Lato', sans-serif;
 }
 
 .text-muted {
     color: #7d97ad;
 }
 
-.header-super {
+.header-title {
     font-weight: 300;
 }
 
@@ -23,12 +22,24 @@
     height: 2px;
 }
 
+.project-info {
+    margin: 0 0 20px;
+}
+
+.project-link {
+    padding: 1.2em;
+}
+
 @media screen and (max-width: 480px){
-    .header-super {
-        font-size: 30px;
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
     .header-logo {
-        height: 58px;
+        height: 51px;
     }
 }
