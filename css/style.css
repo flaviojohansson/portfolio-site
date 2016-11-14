@@ -3,6 +3,10 @@
     font: normal 300 16px 'Lato', sans-serif;
 }
 
+body {
+    padding-top: 143px;
+}
+
 .text-muted {
     color: #7d97ad;
 }
@@ -28,6 +32,11 @@
 
 .project-link {
     padding: 1.2em;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: 0;
 }
 
 @media screen and (max-width: 480px){
