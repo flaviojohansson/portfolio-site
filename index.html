@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flavio Johansson's portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <!--
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
 </head>
-
 <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="row">
@@ -38,95 +30,91 @@
             </div>
         </div>
     </nav>
-    
     <div class="container">
         <main id="main-content">
-
             <div class="row">
                 <div class="col-xs-12">
                     <picture id="hero-banner">
                         <source media="(min-width: 992px)" srcset="img/hero_1200_large.jpg" />
-                        <source media="(min-width: 480px)" srcset="img/hero_720_medium.jpg" />
-                        <img class="img-responsive" src="img/hero_480_small.jpg" alt="Cute kitten looking to the camera">
+                        <source media="(min-width: 640px)" srcset="img/hero_700_medium.jpg" />
+                        <source media="(max-width: 639px)" srcset="img/hero_600_small.jpg" />
+                        <img class="img-responsive" src="img/hero_1200_large.jpg" alt="Main banner with a notebook, a smartphone and some toys">
                     </picture>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-xs-12">
                     <h2 class="text-muted text-left">Featured Work</h2>
                 </div>
             </div>
-
             <div class="row text-center">
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Movie Trailer Website</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        <img class="img-responsive" src="img/movie_trailer.jpg" alt="An Ipad browsing some movies catalog">
+                        <h4 class="text-uppercase">Movie Trailer Website</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
                         consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
                         elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
                         <a class="project-link" target="_blank" href="https://goo.gl/yvl5b5">Link to project</a>
                     </article>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Build a Portfolio</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
-                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
-                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
-                        <a class="project-link" target="_blank" href="https://goo.gl/yvl5b5">Link to project</a>
+                        <img class="img-responsive" src="img/portfolio.jpg" alt="Someone browsing some photos on a notebook">
+                        <h4 class="text-uppercase">Build a Portfolio</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris.</p>
+                        <a class="project-link" target="_blank" href="https://goo.gl/nh7YsL">Link to project</a>
                     </article>
                 </div>
-                <div class="col-sm-4">
+                <div class="clearfix visible-sm-block">
+                    <!-- Fix problem whith 2 column's layout-->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Multi User Blog</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        <img class="img-responsive" src="img/blog.jpg" alt="A person writing on a diary with a pen">
+                        <h4 class="text-uppercase">Multi User Blog</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="img/catalog.jpg" alt="Two glasses of wine on a table and a magazine">
+                        <h4 class="text-uppercase">Item Catalog</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
+                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
+                <div class="clearfix visible-sm-block">
+                    <!-- Fix problem whith 2 column's layout-->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="img/neighborhood.jpg" alt="A view from a street">
+                        <h4 class="text-uppercase">Neighborhood Map</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
+                        consequat et mauris.</p>
+                        <a class="project-link" href="#">Link to project</a>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="project-info">
+                        <img class="img-responsive" src="img/game.jpg" alt="Four red dice">
+                        <h4 class="text-uppercase">Design a Game</h4>
+                        <p class="text-left text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
                         consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
                         elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
                         <a class="project-link" href="#">Link to project</a>
                     </article>
                 </div>
             </div>
-
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Item Catalog</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
-                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
-                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
-                        <a class="project-link" href="#">Link to project</a>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Neighborhood Map</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
-                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
-                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
-                        <a class="project-link" href="#">Link to project</a>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article class="project-info">
-                        <img class="img-responsive" src="http://placekitten.com/g/800/520">
-                        <h3 class="text-uppercase">Design a Game</h3>
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl dolor, vulputate at dictum ultricies,
-                        consequat et mauris. Aliquam ultricies sem in velit tempus, vitae commodo tortor rhoncus. Nullam sollicitudin,
-                        elit sit amet finibus porta, augue lectus bibendum dolor, vel hendrerit felis nulla eu diam.</p>
-                        <a class="project-link" href="#">Link to project</a>
-                    </article>
-                </div>
-            </div>
-
         </main>
-
     </div>
 </body>
-
 </html>

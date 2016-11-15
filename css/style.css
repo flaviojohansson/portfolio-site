@@ -37,9 +37,38 @@ body {
 .navbar-default {
     background-color: #fff;
     border: 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (orientation:landscape) and (max-width: 768px) {
+    body {
+        padding-top: 0px;
+    }
+
+    .navbar-fixed-top
+    {
+        position: relative;
+        top: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .header-logo {
+        height: 51px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding-top: 126px;
+    }
+
     h1 {
         font-size: 24px;
     }
